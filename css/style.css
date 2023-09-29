@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  min-width: 30%;
+  text-align: center;
+  margin-top: 100px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);  
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#game-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #bc2e1e;
+  text-shadow:
+    0 1px 0px #378ab4,1px 0 0px #5dabcd,1px 2px 1px #378ab4,2px 1px 1px #5dabcd,2px 3px 2px #378ab4,3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4,
+    4px 3px 3px #5dabcd,
+    4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd,
+    5px 6px 2px #378ab4,
+    6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4,
+    7px 6px 1px #5dabcd,
+    7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
+
+}
+
+.choices button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+  border: solid 2px #333;
+}
+.choices button:hover {
+  opacity: 0.9;
+  
+}
+
+.player-choice, .computer-choice, .result {
+  margin-top: 20px;
+}
+
+#result-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#play-again {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1E90FF;
+  border: solid 2px #1E90FF ;
+  cursor: pointer;
+  border-radius:7px ;
+  -webkit-border-radius:7px ;
+  -moz-border-radius:7px ;
+  -ms-border-radius:7px ;
+  -o-border-radius:7px ;
+}
+#play-again:hover {
+  opacity: 0.8;
+}
